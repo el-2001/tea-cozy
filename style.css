@@ -16,7 +16,7 @@ body{
 nav{
     background-color: black;
     width: 100%; 
-    height: 69px;
+    min-height: 69px;
     border: 1px solid seashell;
     position:fixed;
     top: 0px;
@@ -42,6 +42,9 @@ nav ul{
     width: 40%; 
     justify-content: space-around;
     align-items: center;
+}
+nav ul li{
+    padding: 10px;
 }
 nav ul li a:hover:after{
     content:'*'
@@ -152,7 +155,8 @@ footer .bottom-left{
 
 @media only screen and (max-width: 900px){
     nav{
-        height: 100px;
+        height: 200px;
+        top: 0px;
     }
     nav ul{
         flex-wrap: wrap;
