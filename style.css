@@ -23,14 +23,18 @@ nav{
     display: flex;
     z-index: 1;
     font-size: 22px;
+    opacity: .9;
 
 }
 nav figure{
-    height: 100%;
+    min-height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    
 }
 nav figure img{
+  
     height: 50px;
     margin-left: 10px;
 }
